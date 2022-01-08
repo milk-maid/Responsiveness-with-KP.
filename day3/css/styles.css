@@ -11,10 +11,9 @@ body {
 
 .wrap {
     width: 100%;
-    max-width: 1000px;
     background: hsl(192, 36%, 21%);
     color: #fff;
-    padding: 6em;
+    padding: 4.5em;
 }
 
 .wrap h1 {
@@ -22,16 +21,12 @@ body {
     font-weight: 900;
 }
 
-.wrap p {
+#ppp  {
     font-size: .55rem;
     font-weight: 300;
     margin-bottom: 3em;
     line-height: 1.8;
     opacity: .8;
-}
-
-.container {
-    width: 80%;
 }
 
 .wrapper {
@@ -59,6 +54,60 @@ body {
 
 }
 
-.others{
+.container {
+    width: 80%;
+    max-width: 1000px;
+    margin: 0 auto;
+}
 
+.house {
+    border: 2px solid #3A3A3A;
+    padding: 3em 0;      
+}
+
+.house h2 {
+    color: #87629A;
+}
+
+.house p {
+    color: #3A3A3A;
+}
+
+.row {
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 10px;
+}
+
+.home {
+    background: #136C72;
+    color: #FFF;
+    padding: 2em 0;
+}
+
+.col {
+    width: 100%;
+}
+
+.daya {
+    margin-left: 30px;
+    width: 100%;
+}
+
+h2 {
+    text-align: center;
+    font-size: 1.2rem;
+    font-weight: 110;
+}
+
+.klass {
+     text-align: center;
+}
+
+p  {
+    font-size: .55rem;
+    font-weight: 300;
+    margin-bottom: 3em;
+    line-height: 1.8;
+    opacity: .8;
 }
