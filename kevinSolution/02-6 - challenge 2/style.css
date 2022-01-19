@@ -22,6 +22,10 @@ body {
     font-size: 1.3rem;
 }
 
+.house {
+    border: 2px solid black;
+}
+
 img {
     max-width: 100%;
 }
@@ -89,3 +93,4 @@ h1 {
 .btn:focus {
     opacity: .75; 
 }
+
